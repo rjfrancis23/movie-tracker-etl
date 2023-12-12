@@ -1,0 +1,4 @@
+content_type: application/json
+trakt_api_version: '2'
+trakt_api_key: eba12e5d0e3e6bf23085aa54f778f3da24fb949b230496e07bbf74858444627e
+trakt_url: https://api.trakt.tv/movies/trending?limit=20&countries=us&extended=full
