@@ -7,7 +7,7 @@ from google.cloud import bigquery
 
 os.environ["GCLOUD_PROJECT"] = "upheld-now-404615"
 
-with open('config.yml') as config:
+with open('/Users/rebeccafrancis23/movie-tracker-etl/config.yml') as config:
     api_vars = yaml.safe_load(config)
 
 def get_trending_data():
