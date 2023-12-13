@@ -58,7 +58,8 @@ def load_big_query(uri):
             bigquery.SchemaField('ids_imdb','STRING'),
             bigquery.SchemaField('ids_tmdb','INT64')
         ],
-        source_format=bigquery.SourceFormat.NEWLINE_DELIMITED_JSON,
+        write_disposition=bigquery.WriteDisposition.WRITE_TRUNCATE,
+        source_format=bigquery.SourceFormat.NEWLINE_DELIMITED_JSON
     )
 
     uri = uri
