@@ -1,3 +1,3 @@
 # movie-tracker-etl
-🚧 Under Construction! 🔨 🚧
-Practice ETL pipeline to track trending movies.
+🚧 Under Construction! 🚧
+\n Practice ETL pipeline to track trending movies.
