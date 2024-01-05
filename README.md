@@ -1,4 +1,5 @@
-# movie-tracker-etl
+# Trending movie tracker ETL pipeline
+
 🚧 🔨 **UNDER CONSTRUCTION** 🔨 🚧
 
 Practice ETL pipeline to track trending movies.
